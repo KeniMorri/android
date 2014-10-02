@@ -31,7 +31,7 @@ public class term extends Activity {
                 findViewById(R.id.autoCompleteTextView);
         textView.setAdapter(adapter);
 
-        onItemClickLis oicl = new onItemClickLis(auto_toast);
+        onItemClickLis oicl = new onItemClickLis(auto_toast, auto_com);
 
         textView.setOnItemClickListener(oicl);
     }
@@ -39,22 +39,32 @@ public class term extends Activity {
 
     public class onItemClickLis implements AdapterView.OnItemClickListener
     {
-        String[] internal;
-        onItemClickLis(String[] sent){
-            internal = sent;
+        String[] toastText;
+        String[] values;
+        onItemClickLis(String[] tText, String[] vText){
+            values = vText;
+            toastText = tText;
         }
         public void onItemClick(AdapterView<?> parent, View view, int pos, long id){
             // ListView Clicked item index
             int itemPosition     = pos;
-
             // ListView Clicked item value
             String  itemValue    = (String) parent.getItemAtPosition(pos);
 
+            int j;
+            for(j = 0; j< 40; j++)
+            {
+                if(itemValue.equals(values[j]))
+                {
+                    itemPosition = j;
+                    j = 41;
+                }
+            }
             InputMethodManager imm = (InputMethodManager)getSystemService(
                     Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
 
-            Toast.makeText(getApplicationContext(),itemValue + itemPosition + (String) internal[itemPosition], Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),(String) toastText[itemPosition], Toast.LENGTH_LONG).show();
 
         }
     }
