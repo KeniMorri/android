@@ -1,0 +1,87 @@
+<string-array name="auto_complete">
+        <item>"android"</item>
+        <item>"emulator"</item>
+        <item>"adb"</item>
+        <item>"ant"</item>
+        <item>"screenshot2"</item>
+        <item>"bin"</item>
+        <item>"gen"</item>
+        <item>"libs"</item>
+        <item>"res"</item>
+        <item>"src"</item>
+        <item>"gradle"</item>
+        <item>"pm"</item>
+        <item>"lint"</item>
+        <item>"src/main"</item>
+        <item>"build/outputs"</item>
+        <item>"res/layout"</item>
+        <item>"res/values"</item>
+        <item>"project"</item>
+        <item>"perspective"</item>
+        <item>"workspace"</item>
+        <item>"view"</item>
+        <item>"plug-in"</item>
+        <item>"AVD"</item>
+        <item>"build path"</item>
+        <item>"SDK"</item>
+        <item>"ADT"</item>
+        <item>"DDMS"</item>
+        <item>"logcat"</item>
+        <item>"panel"</item>
+        <item>"toolbar"</item>
+        <item>"status bar"</item>
+        <item>"preview pane"</item>
+        <item>"project explorer"</item>
+        <item>"idea folder"</item>
+        <item>"intellisense"</item>
+        <item>"module"</item>
+        <item>"live layout"</item>
+    </string-array>
+
+    <string-array name="toast_answers">
+        <item>"the android command lets you modify the sdk configuration, such as downloading new packages"</item>
+        <item>"the emulator command lets you modify/create VM's for you to test on, also edit those VM's settings
+"</item>
+        <item>"the adb command, aka Android Debug Bridge lets you connect to your phone for live testing, also lets you send commands to the phone to do things
+"</item>
+        <item>"the ant command helps with compiling and cleaning applicatoins
+"</item>
+<item>"the screenshot2 command takes a screenshot"</item>
+        <item>"bin is where the compiler tosses files for compilation"</item>
+        <item>"generated java files"</item>
+        <item>"lib is used for shared libraries"</item>
+        <item>"Res stands for resource, and holds all the xml, and images needed for different screen resolutions"</item>
+        <item>"SRC stands for source, this contains code, to resources
+"</item>
+        <item>"Graddle is a utility that is used inside android studio as oppposed to eclipe to build applications"</item>
+        <item>"pm stands for package manager, it lets u, manage the packages you've installed
+"</item>
+        <item>"lint is simliar to javadoc, but for android applications"</item>
+        <item>"holds the java, res, and android manifest for use"</item>
+        <item>"this is where compiled code lies"</item>
+        <item>"resources for files that will be used for differing dpi/screen sizes"</item>
+        <item>"resource folder for strings, ints, files, etc"</item>
+        <item>"The project holds all the files related to your file to be compiled into an apk on the build phase"</item>
+        <item>"Refers to the GUI of eclipse and how its made up of many boxes"</item>
+        <item>"This is the default directory where eclipse/android studio save projects"</item>
+        <item>"View refers to what the classes used when building the Graphical User Interface"</item>
+        <item>"Plug-in's are optional(mostly) files you can install
+"</item>
+        <item>"Stands for Android Virtual Devices, which are the Virtual Machines used to test applications on"</item>
+        <item>"This is where the ide will put the compiled files temporarily before packaging the apk"</item>
+        <item>"Stands for Software Development Kit, eclipse or android studio are basically sdk's"</item>
+        <item>"Stands for Android Development Tools, these tools help you create, debug, and compile your program "</item>
+        <item>"Stands for Dalvik Debug Monitor Server, this tool is used to debug processes"</item>
+        <item>"The logcat records many things that happen on your device"</item>
+        <item>"Panels refer to the gui and how its comprised of different panels."</item>
+        <item>"The toolbar is the icons on the top of the screen that act as shortcuts to functions in the program"</item>
+        <item>"Tells you the status of android studio, or a process currently running(compiling/ etc)"</item>
+        <item>"Lets you see what the Program will look like without compiling"</item>
+        <item>"Lets you delve into the projects files on a per folder basis
+"</item>
+        <item>"holds project settings and meta data
+"</item>
+        <item>"Gives you possible statements depending on what you type, basically intelligently senses what you’re probably gonna need to type"</item>
+        <item>"Modules in Android Studio act like projects in Eclipse, due to how android studio handles multiple projects"</item>
+        <item>"Is similar to the preview pane and lets you see the layout in real time"</item>
+    </string-array>

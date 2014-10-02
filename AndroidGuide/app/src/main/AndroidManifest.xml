@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="androidguide.kenny.shark.androidguide" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidguide.kenny.shark.androidguide.Main" />
+        </activity>
+        <activity
+            android:name=".settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidguide.kenny.shark.androidguide.Main" />
+        </activity>
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help"
+            android:parentActivityName=".Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidguide.kenny.shark.androidguide.Main" />
+        </activity>
+        <activity
+            android:name=".term"
+            android:label="@string/title_activity_term"
+            android:parentActivityName=".Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidguide.kenny.shark.androidguide.Main" />
+        </activity>
+        <activity
+            android:name=".web"
+            android:label="@string/title_activity_web" >
+            android:parentActivityName=".Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidguide.kenny.shark.androidguide.Main" />
+        </activity>
+        <activity
+            android:name=".website"
+            android:label="@string/title_activity_website" >
+        </activity>
+    </application>
+
+</manifest>

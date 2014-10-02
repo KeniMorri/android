@@ -1,0 +1,27 @@
+1.What is your full name and nine digit Seneca student ID?
+My full name is Kenny Nguyen and my Seneca Student ID is 036 611 101
+
+2.Explain in your own words what is meant by each of these Android Studio terms or phrases
+a.project
+The project is comprised of all the java/c++/xml/android manifests/android files related to the project
+b.panel
+Panels refer to the gui and how its comprised of different panels.
+c.toolbar
+The toolbar is the icons on the top of the screen that act as shortcuts to functions in the program
+d.status bar
+Tells you the status of android studio, or a process currently running(compiling/ etc)
+e.preview pane
+Lets you see what the Program will look like without compiling
+f.project explorer
+Lets you delve into the projects files on a per folder basis
+g.idea folder
+holds project settings and meta data
+h.intellisense
+Gives you possible statements depending on what you type, basically intelligently senses what you’re probably gonna need to type
+i.module
+Modules in Android Studio act like projects in Eclipse, due to how android studio handles multiple projects
+j.live layout
+Is similar to the preview pane and lets you see the layout in real time
+
+3.Did you attach the screen shot you took in PART B?
+yes

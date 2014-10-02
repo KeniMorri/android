@@ -1,0 +1,32 @@
+Lab 2
+
+
+1.What is your full name and nine digit Seneca student ID?
+My full name is Kenny Nguyen and my Seneca Student ID is 036 611 101
+
+2.Explain in your own words what is meant by each of these Eclipse/Android terms or phrases
+a.project
+The project holds all the files related to your file to be compiled into an apk on the build phase
+b.perspective
+Refers to the GUI of eclipse and how its made up of many boxes
+c.workspace
+This is the default directory where eclipse/android studio save projects
+d.view
+View refers to what the classes used when building the Graphical User Interface
+e.plug-in
+Plug-in's are optional(mostly) files you can install
+f.AVD
+Stands for Android Virtual Devices, which are the Virtual Machines used to test applications on
+g.build path
+This is where the ide will put the compiled files temporarily before packaging the apk
+h.SDK
+Stands for Software Development Kit, eclipse or android studio are basically sdk's
+i.ADT
+Stands for Android Development Tools, these tools help you create, debug, and compile your program 
+j.DDMS
+Stands for Dalvik Debug Monitor Server, this tool is used to debug processes
+k.logcat
+The logcat records many things that happen on your device
+
+3.Did you attach the screen shot you took in PART B?
+yes
